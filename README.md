@@ -1,1 +1,1 @@
-# kannel
+# Kannel Bash Script
