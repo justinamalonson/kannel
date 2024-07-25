@@ -5,7 +5,7 @@ sudo apt update
 sudo apt install -y build-essential libxml2-dev libssl-dev libcurl4-openssl-dev
 
 # Download and extract Kannel source code
-wget http://www.kannel.org/download/1.4.5/gateway-1.4.5.tar.gz
+wget http://www.kannel.org/download/1.4.5/gateway-1.4.5.tar.gz --no-check-certificate
 tar -xzf gateway-1.4.5.tar.gz
 cd gateway-1.4.5
 
